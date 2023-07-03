@@ -1,3 +1,1 @@
 # MonRed
-
-Programa de ejercicio
