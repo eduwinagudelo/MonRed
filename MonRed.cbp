@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MonRed" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MonRed" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="/home/edwin/Development/Data/EnvioEstadoRed/salida/monitor_red20181202200001.txt" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MonRed" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="/home/edwin/Development/CodeBlocks/MonRed/" />
+			<Add directory="/home/edwin/Development/CodeBlocks/Librerias_SBI" />
+			<Add directory="/home/edwin/Development/Libraries/lib/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmariadb" />
+			<Add directory="/home/edwin/Development/Libraries/lib/lib/mariadb" />
+		</Linker>
+		<Unit filename="../Librerias_SBI/src/CConfigura.cpp" />
+		<Unit filename="../Librerias_SBI/src/CPlano.cpp" />
+		<Unit filename="../Librerias_SBI/src/CUtiles.cpp" />
+		<Unit filename="Monred.h" />
+		<Unit filename="include/CConexion.h" />
+		<Unit filename="include/CIpVal.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CConexion.cpp" />
+		<Unit filename="src/CIpVal.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

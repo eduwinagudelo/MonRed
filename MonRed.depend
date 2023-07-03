@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1522442853 source:/home/edwin/Development/CodeBlocks/Librerias_SBI/src/CConfigura.cpp
+	"include/CConfigura.h"
+
+1431098002 /home/edwin/Development/CodeBlocks/Librerias_SBI/include/CConfigura.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	<algorithm>
+
+1522442861 source:/home/edwin/Development/CodeBlocks/Librerias_SBI/src/CPlano.cpp
+	"include/CPlano.h"
+
+1522442869 /home/edwin/Development/CodeBlocks/Librerias_SBI/include/CPlano.h
+	<include/CConfigura.h>
+	<iostream>
+	<fstream>
+	<string>
+	<unistd.h>
+	<stdlib.h>
+	<string.h>
+	<sys/stat.h>
+
+1544485084 source:/home/edwin/Development/CodeBlocks/Librerias_SBI/src/CUtiles.cpp
+	"include/CUtiles.h"
+
+1544485165 /home/edwin/Development/CodeBlocks/Librerias_SBI/include/CUtiles.h
+	<dirent.h>
+	<errno.h>
+	<sys/stat.h>
+	<errno.h>
+	<stdlib.h>
+	<string.h>
+	<ctime>
+	<string>
+	<iostream>
+	<unistd.h>
+	<regex>
+	<vector>
+	<algorithm>
+	<ctype.h>
+	<glob.h>
+
+1546794066 source:/home/edwin/Development/CodeBlocks/MonRed/main.cpp
+	<iostream>
+	<vector>
+	"include/CPlano.h"
+	"include/CUtiles.h"
+	"include/CConexion.h"
+	"Monred.h"
+
+1546796000 /home/edwin/Development/CodeBlocks/MonRed/Monred.h
+	<iostream>
+	<cstdlib>
+	"CIpVal.h"
+
+1546794779 source:/home/edwin/Development/CodeBlocks/MonRed/src/CIpVal.cpp
+	"include/CIpVal.h"
+
+1546794779 /home/edwin/Development/CodeBlocks/MonRed//include/CIpVal.h
+	<string>
+	"include/CUtiles.h"
+	"mysql/mysql.h"
+
+1546794779 /home/edwin/Development/CodeBlocks/MonRed/include/CIpVal.h
+	<string>
+	"include/CUtiles.h"
+	"mysql/mysql.h"
+
+1546795410 /home/edwin/Development/CodeBlocks/MonRed/include/CConexion.h
+	"mysql/mysql.h"
+	<string>
+	<iostream>
+	<cstdio>
+	"include/CIpVal.h"
+
+1546796633 source:/home/edwin/Development/CodeBlocks/MonRed/src/CConexion.cpp
+	"include/CConexion.h"
+
+1546796840 /home/edwin/Development/CodeBlocks/MonRed//include/CConexion.h
+	"mysql/mysql.h"
+	<string>
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	"include/CIpVal.h"
+
